@@ -29,6 +29,10 @@ vshell end:
     key(ctrl-a)
     key(enter)
 
+vshell new:
+    key(ctrl-s)
+    key(enter)
+
 vshell pin:
     key(ctrl-p)
 
