@@ -1,51 +1,66 @@
 tag: user.vshell
 -
 vshell pre <user.letters>: 
-    key(ctrl-b)
+    key(escape)
+    "jb:"
     "{letters}"
     key(enter)
 
 vshell post <user.letters>: 
-    key(ctrl-a)
+    key(escape)
+    "ja:"
     "{letters}"
     key(enter)
 
 vshell pasta: 
-    key(ctrl-v)
+    key(escape)
+    "p"
+    key(enter)
 
 vshell change <user.letters>: 
-    key(ctrl-e)
+    key(escape)
+    "c:"
     "{letters}"
     key(enter)
 
 vshell change <user.letters> past <user.letters>:
-    key(ctrl-e)
+    key(escape)
+    "c:"
     "{letters_1}"
     ","
     "{letters_2}"
     key(enter)
 
 vshell end:
-    key(ctrl-a)
+    key(escape)
+    "jb"
     key(enter)
 
 vshell new:
-    key(ctrl-s)
+    key(escape)
+    "s"
     key(enter)
 
 vshell pin:
-    key(ctrl-p)
+    key(escape)
+    "pin"
+    key(enter)
 
 vshell (take | select) <number>:
-    key(ctrl-s)
+    key(escape)
+    "s:"
     "{number}"
     key(enter)
 
 vshell toggle hints:
-    key(ctrl-h)
+    key(escape)
+    "togglehints"
+    key(enter)
 
 vshell copy output:
-    key(ctrl-o)
+    key(escape)
+    "copyoutput"
+    key(enter)
 
 vshell start:
     "vshell\n"
