@@ -85,6 +85,11 @@ vshell execute zee shell:
     "se:zsh"
     key(enter)
 
+vshell switch history:
+    key(escape)
+    "sh"
+    key(enter)
+
 vshell start:
     "vshell\n"
 
