@@ -67,6 +67,14 @@ vhsell execute bash:
     "se:bash"
     key(enter)
 
+vshell replace single:
+    key(escape)
+    "rs:"
+
+vshell replace (all | global):
+    key(escape)
+    "rg:"
+
 vshell execute fish:
     key(escape)
     "se:fish"
