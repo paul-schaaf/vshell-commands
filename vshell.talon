@@ -62,6 +62,21 @@ vshell copy output:
     "copyoutput"
     key(enter)
 
+vhsell execute bash:
+    key(escape)
+    "se:bash"
+    key(enter)
+
+vshell execute fish:
+    key(escape)
+    "se:fish"
+    key(enter)
+
+vshell execute zee shell:
+    key(escape)
+    "se:zsh"
+    key(enter)
+
 vshell start:
     "vshell\n"
 
