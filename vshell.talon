@@ -90,6 +90,11 @@ vshell switch history:
     "sh"
     key(enter)
 
+vshell choose path:
+    key(escape)
+    "choosepath"
+    key(enter)
+
 vshell start:
     "vshell\n"
 
