@@ -59,7 +59,17 @@ vshell toggle hints:
 
 vshell copy output:
     key(escape)
-    "copyoutput"
+    "co"
+    key(enter)
+
+vshell copy output <user.letters>:
+    key(escape)
+    "co:{letters}"
+    key(enter)
+
+vshell copy output <user.letters> past <user.letters>:
+    key(escape)
+    "co:{letters_1},{letters_2}"
     key(enter)
 
 vhsell execute bash:
