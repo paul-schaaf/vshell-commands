@@ -108,5 +108,10 @@ vshell choose path:
 vshell start:
     "vshell\n"
 
-vshell quit:
+^vshell quit$:
+    key(escape)
+    "q"
+    key(enter)
+    
+^vshell cancel$:
     key(ctrl-c)
